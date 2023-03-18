@@ -18,11 +18,9 @@ const sites = [
   return (
     <div className="App">
       <h1>ÓDB</h1>
-      <ul>
         {sites.map(site => {
-          return <li><a href="{site.url}">{site.title}</a></li>
+          return <div key={site.url} className="card"><a href={site.url}>{site.title}</a></div>
         })}
-      </ul>
     </div>
   )
 }
