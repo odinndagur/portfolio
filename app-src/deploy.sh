@@ -1,5 +1,5 @@
 npm run build
-cp ./dist/* ../
+cp -r ./dist/* ../
 git add --all
 git commit -am deploy
 git push
