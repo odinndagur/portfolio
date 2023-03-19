@@ -9,10 +9,19 @@
 
 .card {
   padding: 2em;
+  display: inline-block;
 }
 
-a:hover, a:visited, a {
+a:hover {
+  color:rgba(255,255,255,0.9);
+}
+
+a:visited {
   color:rgba(255,255,255,0.7);
+}
+
+a {
+  color:rgba(255,255,255,0.6);
 }
 
 .read-the-docs {
