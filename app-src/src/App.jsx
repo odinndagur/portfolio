@@ -12,7 +12,7 @@ const sites = [
     },
     {
       title: 'Táknmál',
-      url: 'https://taknmal.github.io'
+      url: 'https://odinndagur.github.io/itm'
     }
   ]
   return (
