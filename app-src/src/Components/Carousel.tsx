@@ -1,6 +1,12 @@
 import { useRef } from 'react'
 
-export function Carousel({ children }: { children?: any }) {
+export function Carousel({
+    children,
+    width,
+}: {
+    children?: any
+    width?: string | number
+}) {
     const carouselRef = useRef(null)
     if (children?.length == 1) {
         return <div className="carousel no-scrollbar">{children}</div>
@@ -10,7 +16,12 @@ export function Carousel({ children }: { children?: any }) {
             <div
                 className="carousel"
                 ref={carouselRef}
-                style={{ scrollSnapType: 'both mandatory' }}
+                style={{
+                    scrollSnapType: 'both mandatory',
+                    gridTemplateColumns: `repeat(auto-fill, minmax(${
+                        width ? width : '300px'
+                    }, 1fr))`,
+                }}
             >
                 {children}
             </div>
