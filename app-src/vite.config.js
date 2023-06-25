@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/',
+    base: '/portfolio/',
     define: {
         'process.env': {},
     },
@@ -20,7 +20,7 @@ export default defineConfig({
             manifest: {
                 name: 'Óðinn Dagur',
                 short_name: 'ÓDB',
-                start_url: '/',
+                start_url: '/portfolio/',
                 display: 'standalone',
                 theme_color: '#FFFFFF',
                 background_color: '#FFFFFF',

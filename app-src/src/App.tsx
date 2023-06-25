@@ -70,7 +70,7 @@ function App() {
                 >
                     <Router
                         location={reactLocation}
-                        basepath="/"
+                        basepath="/portfolio/"
                         // defaultLinkPreloadMaxAge={Infinity}
                         // defaultPendingElement={<PlaceholderScreen />}
                         // defaultLoaderMaxAge={Infinity}

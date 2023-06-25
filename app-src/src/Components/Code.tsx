@@ -4,13 +4,13 @@ import { Grid } from './Grid'
 import { Header } from './Header'
 import { PortfolioItem } from './PortfolioItem'
 
-import itm1 from '/assets/screenshots/itm1.png'
-import itm2 from '/assets/screenshots/itm2.png'
-import itm3 from '/assets/screenshots/itm3.png'
-import itm4 from '/assets/screenshots/itm4.png'
-import itm5 from '/assets/screenshots/itm5.png'
-import itm6 from '/assets/screenshots/itm6.png'
-import itm7 from '/assets/screenshots/itm7.png'
+import itm1 from '/portfolio/assets/screenshots/itm1.png'
+import itm2 from '/portfolio/assets/screenshots/itm2.png'
+import itm3 from '/portfolio/assets/screenshots/itm3.png'
+import itm4 from '/portfolio/assets/screenshots/itm4.png'
+import itm5 from '/portfolio/assets/screenshots/itm5.png'
+import itm6 from '/portfolio/assets/screenshots/itm6.png'
+import itm7 from '/portfolio/assets/screenshots/itm7.png'
 
 export function Code() {
     return (

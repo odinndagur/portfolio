@@ -6,12 +6,12 @@ const PRECACHE_URLS = [
     '/index.html',
     '/',
     // '/style.css',
-    '/assets/manifest.webmanifest',
-    '/assets/sql-wasm.js',
-    '/assets/sql-wasm.wasm',
-    '/assets/sign_tables.txt',
-    '/assets/sign_db_data.txt',
-    '/assets/signftstableftsdata.txt',
+    '/portfolio/assets/manifest.webmanifest',
+    '/portfolio/assets/sql-wasm.js',
+    '/portfolio/assets/sql-wasm.wasm',
+    '/portfolio/assets/sign_tables.txt',
+    '/portfolio/assets/sign_db_data.txt',
+    '/portfolio/assets/signftstableftsdata.txt',
     // '/src_index_worker_js.js',
 ]
 

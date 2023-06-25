@@ -132,7 +132,7 @@ var Module = typeof Module !== 'undefined' ? Module : {};
  * @returns {SqlJs}
  * @example
  * initSqlJs({
- *  locateFile: name => '/path/to/assets/' + name
+ *  locateFile: name => '/path/to/portfolio/assets/' + name
  * }).then(SQL => {
  *  const db = new SQL.Database();
  *  const result = db.exec("select 'hello world'");
